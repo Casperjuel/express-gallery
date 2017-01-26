@@ -18,5 +18,11 @@ router.get('/contact', function(req, res){
     title: 'Contact'
   });
 });
+router.get('/gallery', function(req, res){
+  res.render('gallery', {
+    title: 'gallery'
+  });
+});
+
 
 module.exports = router;
